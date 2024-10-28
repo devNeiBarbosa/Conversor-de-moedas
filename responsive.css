@@ -6,13 +6,13 @@
     }
 
     header img {
-        width: 250px;
-        height: 250px;
-        margin-top: 100px;
+        width: 180px;
+        height: 180px;
+        margin-top: 10px;
     }
 
     .container-principal {
-        margin-top: 4cm;
+        margin-top: 5cm;
     }
 
     button:hover {
@@ -23,12 +23,9 @@
     }
 
     .info-covnersao {
-        margin-top: 4cm;
+        margin-top: 5cm;
     }
 }
-
-
-
 
 
 
@@ -46,20 +43,21 @@
     header img {
         margin: 0;
         display: flex;
-        width: 250px;
-        height: 250px;
-        top: 100px;
+        width: 200px;
+        height: 200px;
+        top: 20px;
     }
 
     .container-principal {
-        margin-top: 12cm;
+        margin-top: 7cm;
+        margin-right: 20px;
     }
 
     .info-covnersao {
         width: 350px;
         height: 385px;
         padding: 20px;
-        margin-top: 12cm;
+        margin-top: 7cm;
     }
 
     .seta {
