@@ -80,9 +80,10 @@ select {
 }
 
 input {
-    width: 330px;
+    width: 350px;
     height: 48px;
     border: none;
+    border-radius: 10px;
     padding-left: 20px;
     font-size: 18px;
     font-weight: 700;
@@ -122,7 +123,7 @@ input {
 
 .valor {
     width: 350;
-    border-radius: 10px;
+
 }
 
 .valor p {
