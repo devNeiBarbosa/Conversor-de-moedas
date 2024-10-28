@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-de-fundo {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.image-de-fundo-mobile {
+    display: none;
+}
+
+.mascara-imagem {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.705) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+header img {
+    position: absolute;
+    transform: translateX(-50%);
+    top: 50px;
+    left: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 200px;
+    margin-right: 30px;
+
+}
+
+select {
+    height: 48px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    padding-left: 10px;
+    text-align: center;
+    color: rgba(85, 85, 85, 1);
+    -webkit-appearance: none;
+    /* Remove a seta no Chrome, Safari, Edge */
+    -moz-appearance: none;
+    /* Remove a seta no Firefox */
+    appearance: none;
+    /* Remove a seta nos navegadores modernos */
+    background: transparent;
+    /* Opcional, para remover o fundo padrão */
+}
+
+input {
+    width: 320px;
+    height: 48px;
+    border: none;
+    padding-left: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgba(85, 85, 85, 1);
+    outline: none;
+}
+
+.select-converter-de {
+    border-radius: 5px;
+    border: 1px solid rgba(187, 187, 187, 1);
+    margin-bottom: 25px;
+}
+
+.conterverte-de p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.select-converter-para {
+    border-radius: 5px;
+    border: 1px solid rgba(187, 187, 187, 1);
+    margin-bottom: 25px;
+}
+
+.converter-para p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.select-valor-convertido {
+    border-radius: 5px;
+    border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.valor p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+button {
+    width: 370px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    background-color: #2a93d5;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2377ac;
+    color: white;
+    font-size: 20px;
+    transition: 0.2s ease-in-out;
+    letter-spacing: 1px;
+}
+
+button:active {
+    background-color: #2a93d5c9; 
+    font-size: 16px;
+}
+
+.info-covnersao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 370px;
+    height: 349px;
+    padding: 20px;
+    margin-top: 200px;
+}
+
+.convertido-de {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 20px;
+    width: 320px;
+    margin: 3px;
+    border: 2px solid #2a93d5;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(85, 85, 85, 1);
+}
+
+.convertido-de img {
+    margin-right: 10px;
+}
+
+.convertido-de p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.convertido-de h1 {
+    font-size: 20px;
+}
+
+.seta {
+    width: 100px;
+    height: auto;
+    /* transform: rotate(0deg);
+    Rotaciona a imagem em 45 graus */
+}
+
+.convertido-para {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    padding: 20px;
+    width: 320px;
+    margin: 3px;
+    border: 2px solid #2a93d5;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(85, 85, 85, 1);
+}
+
+.convertido-para img {
+    margin-right: 10px;
+}
+
+.convertido-para p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.convertido-para h1 {
+    font-size: 20px;
+}

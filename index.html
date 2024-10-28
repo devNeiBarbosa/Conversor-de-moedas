@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+
+    <img class="imagem-de-fundo" src="/assets/img/fundo.jpeg" alt="imagem de fundo">
+    <img class="image-de-fundo-mobile" src="/assets/img/fundomobile.jpeg" alt="imagem de fundo">
+    <div class="mascara-imagem"></div>
+    <header>
+        <img class="logo" src="/assets/img/conversor.png" alt="logo conversor de moedas">
+    </header>
+
+    <div class="container-principal">
+
+        <section class="conterverte-de">
+            <p>Converter <b>de</b></p>
+           
+        <div class="select-converter-de">  
+            <select id="select-converter-de">
+                <option>R$</option>
+                <option>US$</option>
+                <option>€</option>
+                <option>£</option>
+                <option>₿</option>
+                <input placeholder="Real brasileiro">
+            </select>
+        </div>  
+        </section>
+
+        <section class="converter-para">
+            <p>Converter <b>para</b></p>
+
+        <div class="select-converter-para">     
+            <select id="select-converter-para">
+                <option>US$</option>
+                <option>R$</option>
+                <option>€</option>
+                <option>£</option>
+                <option>₿</option>
+                <input placeholder="Dólar americano">
+            </select>
+        </div>
+        </section>
+
+        <section class="valor">
+            <p><b>Valor</b></p>
+        
+        <div class="select-valor-convertido">
+            <select id="select-valor-convertido">
+                <option>R$</option>
+                <option>US$</option>
+                <option>€</option>
+                <option>£</option>
+                <option>₿</option>  
+                <input placeholder="0,00">
+            </select>
+        </div>
+        </section>
+
+        <button class="button-converter">Converter</button>
+
+    </div>
+
+    <div class="info-covnersao">
+
+        <section class="convertido-de">
+            <img src="/assets/img/brasil 2.png" alt="bandeira do brasil">
+            <div class="container-convertido-de">
+                <p>Real</p>
+                <h1>R$ 0,00</h1>
+            </div>
+        </section>
+
+    <img class="seta" src="/assets/img/seta.png" alt="seta">
+
+        <section class="convertido-para">
+            <img src="/assets/img/estados-unidos (1) 1.png" alt="bandeira do eua">
+            <div class="container-convertido-para">
+            <p>Dólar Americano</p>
+            <h1>US$ 0,00</h1>
+        </div>
+        </section>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+</html>
