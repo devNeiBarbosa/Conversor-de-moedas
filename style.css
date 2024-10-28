@@ -40,8 +40,8 @@ header img {
     transform: translateX(-50%);
     top: 50px;
     left: 50%;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 }
 
 .container-principal {
@@ -54,8 +54,8 @@ header img {
     background-color: white;
     border-radius: 10px;
     padding: 20px;
-    margin-top: 200px;
-    margin-right: 30px;
+    margin-top: 350px;
+    margin-right: 50px;
 
 }
 
@@ -161,7 +161,7 @@ button:active {
     width: 370px;
     height: 349px;
     padding: 20px;
-    margin-top: 200px;
+    margin-top: 350px;
 }
 
 .convertido-de {
