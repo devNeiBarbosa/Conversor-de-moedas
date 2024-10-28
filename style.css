@@ -121,7 +121,8 @@ input {
 }
 
 .valor {
-    width: 350px;
+    width: 350;
+    border-radius: 10px;
 }
 
 .valor p {
@@ -134,7 +135,7 @@ button {
     width: 350px;
     height: 48px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 18px;
     font-weight: 700;
     line-height: 18px;
