@@ -12,7 +12,6 @@ function convertValues() {
 
     console.log(selectCurrencyFrom.value) // converter de
 
-
     valorParaConverter.innerHTML = new Intl.NumberFormat("pt-BR", { //formatação da moeda
         style: "currency", //currency=moeda
         currency: "BRL"
@@ -21,6 +20,7 @@ function convertValues() {
 
 
     console.log(selectCurrencyTo.value) // converter para
+    
     const dolarToday = 5.71
     const euroToday = 6.18
     const bitcoinToday = 402036.50
