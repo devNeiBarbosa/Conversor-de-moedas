@@ -198,6 +198,7 @@ button:active {
 
 .convertido-de h1 {
     font-size: 20px;
+    color: black;
 }
 
 .seta {
@@ -234,4 +235,5 @@ button:active {
 
 .convertido-para h1 {
     font-size: 20px;
+    color: black;
 }

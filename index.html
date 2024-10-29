@@ -27,11 +27,10 @@
            
             <div class="select-converter-de">  
                 <select id="select-converter-de">
-                    <option>R$ Real Brasileiro</option>
-                    <option>US$ Dólar Americano</option>
-                    <option>€ Euro</option>
-                    <option>£ Libra</option>
-                    <option>₿ Bitcoin</option>
+                    <option value="brl">R$ Real Brasileiro</option>
+                    <!--<option value="dolar">US$ Dólar Americano</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="bitcoin">₿ Bitcoin</option>-->
                 </select>
             </div>  
         </label>
@@ -41,11 +40,10 @@
 
             <div class="select-converter-para">     
                 <select id="select-converter-para">
-                    <option>US$ Dólar Americano</option>
-                    <option>R$ Real Brasileiro</option>
-                    <option>€ Euro</option>
-                    <option>£ Libra</option>
-                    <option>₿ Bitcoin</option>
+                    <option value="dolar">US$ Dólar Americano</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="bitcoin">₿ Bitcoin</option>
+                    <!--<option value="brl">R$ Real Brasileiro</option>-->
                 </select>
             </div>
         </label>
@@ -54,11 +52,11 @@
             <p><b>Valor</b></p>
         
             <div class="select-valor-convertido">
-                <input placeholder="R$ 0,00">
+                <input id="input-valor" placeholder="R$ 0,00">
             </div> 
         </label>
 
-        <button class="button-converter">Converter</button>
+        <button class="button-convert">Converter</button>
 
     </main>
 
@@ -67,18 +65,18 @@
         <section class="convertido-de">
             <img src="/assets/img/brasil 2.png" alt="bandeira do brasil">
             <div class="container-convertido-de">
-                <p>Real</p>
-                <h1>R$ 0,00</h1>
+                <p id="nome-moeda">Real</p>
+                <h1 class="valor-para-converter">R$ 0,00</h1>
             </div>
         </section>
 
     <img class="seta" src="/assets/img/seta.png" alt="seta">
 
         <section class="convertido-para">
-            <img src="/assets/img/estados-unidos (1) 1.png" alt="bandeira do eua">
+            <img class="img-moeda-convertida" src="/assets/img/estados-unidos (1) 1.png" alt="bandeira do eua">
             <div class="container-convertido-para">
-            <p>Dólar Americano</p>
-            <h1>US$ 0,00</h1>
+            <p id="nome-moeda-convertido">Dólar Americano</p>
+            <h1 class="valor-convertido">US$ 0.0</h1>
         </div>
         </section>
     </div>
