@@ -7,7 +7,7 @@
   Além disso, consegui aprofundar meu entendimento sobre JavaScript, aplicando esse conhecimento na minha página para deixá-la funcional.</p>
 
 <div>
-<video max-width="100%" src="https://github.com/devNeiBarbosa/Conversor-de-moedas/blob/main/assets/img/apresentacao.mp4"/></video>
+<img max-width="100%" src="https://github.com/devNeiBarbosa/Conversor-de-moedas/blob/main/assets/img/apresentacao.png"/>
 </div>
 
 <br>
