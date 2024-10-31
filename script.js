@@ -20,10 +20,10 @@ function convertValues() {
 
 
     console.log(selectCurrencyTo.value) // converter para
-    
-    const dolarToday = 5.71
-    const euroToday = 6.18
-    const bitcoinToday = 402036.50
+
+    const dolarToday = 5.76
+    const euroToday = 6.26
+    const bitcoinToday = 415743.82
 
     if (selectCurrencyTo.value == "dolar") {
         valorConvertido.innerHTML = new Intl.NumberFormat("en-US", {
@@ -42,7 +42,9 @@ function convertValues() {
     if (selectCurrencyTo.value == "bitcoin") {
         valorConvertido.innerHTML = new Intl.NumberFormat("btc", {
             style: "currency",
-            currency: "BTC"
+            currency: "BTC",
+            minimumFractionDigits: 8, // mínimo de 8 casas decimais
+            maximumFractionDigits: 8  // máximo de 8 casas decimais
         }).format(inputValor / bitcoinToday)
     }
 }
