@@ -56,23 +56,27 @@ function changeCurrency() { //função para alterar <img> e <p></p> da section "
 
     if (selectCurrencyTo.value == "dolar") {
         nomeMoedaConvertido.innerHTML = "Dólar Americano"
-        imgMoedaConvertida.src = "/assets/img/estados-unidos (1) 1.png"
+        imgMoedaConvertida.src = "assets/img/estados-unidos (1) 1.png"
     }
 
     if (selectCurrencyTo.value == "euro") {
         nomeMoedaConvertido.innerHTML = "Euro"
-        imgMoedaConvertida.src = "/assets/img/eur.png"
+        imgMoedaConvertida.src = "assets/img/eur.png"
     }
 
     if (selectCurrencyTo.value == "bitcoin") {
         nomeMoedaConvertido.innerHTML = "Bitcoin"
-        imgMoedaConvertida.src = "/assets/img/bitcoin 1.png"
+        imgMoedaConvertida.src = "assets/img/bitcoin 1.png"
     }
 
     convertValues() //chamando função
 }
 
-selectCurrencyTo.addEventListener("change", changeCurrency) // evento de "escutar" seleção de change
-convertButton.addEventListener("click", convertValues) // evento de "escutar" o click do botão
+selectCurrencyTo.addEventListener("change", ()=> {
+    setTimeout(changeCurrency, 1000)
+}) // evento de "escutar" seleção de change
+convertButton.addEventListener("click", ()=> {
+    setTimeout(convertValues, 1000)
+}) // evento de "escutar" o click do botão
 
 
